@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 50vh;
+  height: 50vh;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border: 10px double red;
+  background-color: bisque;
+}
+.main .buttons > button {
+  margin-right: 10px;
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+  transition: all 0.1s ease-out;
+}
+.main .buttons > button:hover {
+  transform: scale(1.3) translateY(-2px);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+.main > .decision {
+  color: red;
+  font-size: 1.2rem;
+}
+.main #result {
+  color: blue;
+}
